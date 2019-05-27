@@ -3,19 +3,18 @@ body {
 }
 
 #map {
-    height: 480px;
-    width: 640px;
+    height: 500px;
+    width: 900px;
 }
 
 .legend {
-    color: #000000;
-    line-height: 18px;
+    background-color: white;
 }
 
 .legend i {
     width: 18px;
     height: 18px;
     float: left;
-    margin-right: 8px;
+    margin-right: 5px;
     opacity: 0.5;
 }

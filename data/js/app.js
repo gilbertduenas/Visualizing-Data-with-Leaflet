@@ -61,7 +61,7 @@ function build_map(quakes) {
   });
 
   // add legend
-  var legend = L.control({ position: "bottomright" });
+  var legend = L.control({ position: "topright" });
 
   legend.onAdd = function () {
     var div = L.DomUtil.create("div", "info legend"),
