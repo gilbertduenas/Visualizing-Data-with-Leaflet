@@ -1,6 +1,10 @@
+body {
+    padding-left: 5%;
+}
+
 #map {
-    height: 600px;
-    width: 800px;
+    height: 480px;
+    width: 640px;
 }
 
 .legend {
@@ -10,7 +14,7 @@
 
 .legend i {
     width: 18px;
-    height: 36px;
+    height: 18px;
     float: left;
     margin-right: 8px;
     opacity: 0.5;
