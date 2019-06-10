@@ -55,7 +55,7 @@ function get_features(quake_data) {
 // build map
 function build_map(quakes) {
   var myMap = L.map("map", {
-    center: [14.5995, 120.9842],
+    center: [14.5995, -120.9842],
     zoom: 3,
     layers: [base_map, quakes]
   });
